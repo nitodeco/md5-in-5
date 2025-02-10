@@ -3,10 +3,10 @@
 From-scratch implementation of the MD5 algorithm in 5 different languages:
 
 - Python
-- TypeScript
-- Go
 - C
 - Rust
+- Java
+- Go
 
 ## What is MD5?
 
@@ -20,6 +20,8 @@ MD5 (Message-Digest Algorithm 5) is a hashing algorithm. It takes an input of ar
 
 4. Finalizing: The values of A, B, C, and D are combined to form the 128-bit hash result
 
-## Deprecation
-
 MD5 should no longer be used in cryptographic applications due to its susceptibility to collision attacks, allowing malicious actors to craft different inputs resulting in identical hash values. More secure hash functions like SHA-256 have become dominant.
+
+## Testing
+
+Since the md5 algorithm is a pure function, all implementations can be easily verified against each other. If one implementation produces a different result than the others, it can be assumed that its not correct.
