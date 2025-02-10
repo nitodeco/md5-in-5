@@ -141,7 +141,7 @@ int main(int argc, char *argv[])
         return 1;
     }
     char *hash = md5(argv[1]);
-    printf("Input: %s\nHash: %s\n", argv[1], hash);
+    printf("%s\n", hash);
     free(hash);
     return 0;
 }

@@ -10,8 +10,7 @@ def main():
     input = sys.argv[1]
     hash = md5(input)
 
-    print("Input:", input)
-    print("Hash:", hash)
+    print(hash)
 
 
 if __name__ == "__main__":
