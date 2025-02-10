@@ -4,8 +4,8 @@ From-scratch implementation of the MD5 algorithm in 5 different languages:
 
 - Python
 - C
+- C++
 - Rust
-- Java
 - Go
 
 ## What is MD5?
@@ -25,3 +25,9 @@ MD5 should no longer be used in cryptographic applications due to its susceptibi
 ## Testing
 
 Since the md5 algorithm is a pure function, all implementations can be easily verified against each other. If one implementation produces a different result than the others, it can be assumed that its not correct.
+
+Run the test script to verify this:
+
+```bash
+bash test.bash
+```
